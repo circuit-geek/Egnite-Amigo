@@ -1,0 +1,85 @@
+html {
+  background: url(https://www.springwise.com/wp-content/uploads/2019/09/innovationwork-lifestyleemployee-wellbeing-app-living-ashram.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+body{
+  margin:0;
+  padding:0;
+  font-weight: Century Gothic;
+  /* background: url(https://www.springwise.com/wp-content/uploads/2019/09/innovationwork-lifestyleemployee-wellbeing-app-living-ashram.png)no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+.container{
+  height: 75vh;
+  width:30%;
+  background: rgba(0,0,0,0.6);
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  padding: 0 20px;
+}
+.img{
+  height:90px;
+  width:90px;
+  background:url(https://london.ac.uk/sites/default/files/styles/promo_mobile/public/2020-03/lc_gjn_covid19_looking_after_mental_wellbeing.png?itok=z8ub3kqF)no-repeat;
+  background-size:cover;
+  background-position: center;
+  border-radius: 50px;
+  position:absolute;
+  top:0%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.container h1{
+  color: white;
+  margin-top: 50px;
+}
+.container p{
+  color:white;
+  margin-top: 60px;
+  font-size: large;
+}
+.btn{
+  background: no-repeat;
+  outline: none;
+  border: 1px solid white;
+  color:white;
+  width:50%;
+  padding:7px 15px;
+  font-size: large;
+  cursor:pointer;
+  transition:0.3s ease;
+}
+.btn:hover{
+  color:black;
+  background: white;
+
+}
+.nav-menu {
+  float:right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.nav-menu li {
+  display: inline-block;
+}
+
+ .nav-menu li a {
+  color: white;
+  text-decoration: none;
+  padding:5px 20px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.6s ease;
+}
+.nav-menu li a:hover{
+  border: 1px solid #8B8000;
+}
